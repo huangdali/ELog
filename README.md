@@ -1,5 +1,9 @@
+# ELog
+
 > E级别错误日志打印工具
 
+
+[![](https://jitpack.io/v/huangdali/ELog.svg)](https://jitpack.io/#huangdali/ELog)
 
 ## 带定位功能
 - 输出调用处类型名、方法名、行
