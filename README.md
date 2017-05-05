@@ -35,8 +35,8 @@ dependencies {
 
 ### 扩展用法
 
-![](https://github.com/huangdali/use.png)
+![](https://github.com/huangdali/ELog/blob/master/use.png)
 
 ### 开关
 
-![](https://github.com/huangdali/switch.png)
+![](https://github.com/huangdali/ELog/blob/master/switch.png)
