@@ -37,7 +37,7 @@ public class ELog {
      * 打印错误信息
      *
      * @param msg
-     * @deprecated 不推荐使用，可以用自己的方法
+     *  不推荐使用，可以用自己的方法
      */
     public static void e(String msg) {
         if (!isDebug) {
@@ -50,7 +50,7 @@ public class ELog {
      * 打印错误信息
      *
      * @param msg
-     * @deprecated 不推荐使用，可以用自己的方法
+     *  不推荐使用，可以用自己的方法
      */
     public static void e(String tag, String msg) {
         if (!isDebug) {
