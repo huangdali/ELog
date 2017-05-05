@@ -25,7 +25,7 @@ allprojects {
 
 ```
 dependencies {
-	        compile 'com.github.huangdali:ELog:v1.2'
+	        compile 'com.github.huangdali:ELog:v1.3.2'
 	}
 ```
 
