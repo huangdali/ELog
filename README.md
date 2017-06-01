@@ -34,11 +34,17 @@ dependencies {
 ```
     ELog.e("我是最简答的用法");
     ELog.e("tag1","我是带tag的用法");
+    ELog.file("mylog.txt","我是打印的具体内容");//此时会在sdcard/ELog目录下生成mylog.txt文件
 ```
 
 ### 扩展用法
 
 ![](https://github.com/huangdali/ELog/blob/master/use.png)
+
+### 打印日志到文件
+
+![](https://github.com/huangdali/ELog/blob/master/file.png)
+
 
 ### 开关
 
