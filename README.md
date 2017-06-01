@@ -9,6 +9,7 @@
 - 点击可追踪到调用处
 - 可设置tag（不设置也是可以的）
 - 可设置开关（总开关，分支开关）
+- 可打印日志信息到sdcard中
 
 ## 导入
 **Step 1.**  Add it in your root build.gradle at the end of repositories:
