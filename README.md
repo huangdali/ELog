@@ -47,6 +47,3 @@ dependencies {
 ![](https://github.com/huangdali/ELog/blob/master/file.png)
 
 
-### 开关
-
-![](https://github.com/huangdali/ELog/blob/master/switch.png)
