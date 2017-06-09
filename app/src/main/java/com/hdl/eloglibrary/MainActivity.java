@@ -11,9 +11,28 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ELog.hdl("haha");
-        ELog.file("mylog.txt","我是打印的具体内" +
-                "容");
-        ELog.hdl("打印完成了");
+        ELog.e(System.currentTimeMillis());
+        ELog.e(this);
+        ELog.file("log","打印日志到文件中.....");
+        ELog.setIsDebug(false);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
