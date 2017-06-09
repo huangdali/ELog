@@ -3,7 +3,7 @@
 > E级别错误日志打印工具
 
 
-![](https://github.com/huangdali/ELog/blob/master/elog.gif)
+![](https://github.com/huangdali/ELog/blob/elogmaster/elog.gif)
 
 ## 带定位功能
 - 输出调用处类型名、方法名、行
@@ -14,7 +14,7 @@
 
 ## 导入
 **Step 1.**  Add it in your root build.gradle at the end of repositories:
-```
+```java
 allprojects {
 		repositories {
 			...
@@ -25,7 +25,7 @@ allprojects {
 
 **Step 2.** Add the dependency
 
-```
+```java
 dependencies {
 	        compile 'com.github.huangdali:ELog:v2.0.1'
 	}
@@ -33,7 +33,7 @@ dependencies {
 
 ## 用法
 
-```
+```java
     ELog.e("我是最简答用法");
     ELog.e("tag","带tag用法");
     ELog.file("mylog.txt","我是打印的具体内容");//此时会在sdcard/ELog目录下生成mylog.txt文件
