@@ -44,7 +44,7 @@ dependencies {
 
 此时会在sdcard/ELog目录下生成{yourfilename}.txt文件
 
-![](https://github.com/huangdali/ELog/blob/master/file.png)
+![](https://github.com/huangdali/ELog/blob/elogmaster/file.png)
 
 ### 使用演示
 
