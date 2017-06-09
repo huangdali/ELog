@@ -3,8 +3,6 @@
 > E级别错误日志打印工具
 
 
-![](https://github.com/huangdali/ELog/blob/elogmaster/elog.gif)
-
 ## 带定位功能
 - 输出调用处类型名、方法名、行
 - 点击可追踪到调用处
@@ -47,4 +45,6 @@ dependencies {
 
 ![](https://github.com/huangdali/ELog/blob/master/file.png)
 
+### 使用演示
 
+![](https://github.com/huangdali/ELog/blob/elogmaster/elog.gif)
