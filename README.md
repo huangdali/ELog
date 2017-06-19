@@ -35,7 +35,7 @@ dependencies {
 ```java
     ELog.e("我是最简答用法");
     ELog.e("tag","带tag用法");
-    ELog.file("mylog","我是打印的具体内容");//此时会在sdcard/ELog目录下生成mylog.txt文件
+    ELog.file("mylog.txt","我是打印的具体内容");//此时会在sdcard/ELog目录下生成mylog.txt文件
     ELog.setIsDebug(false);//关闭日志打印，默认为true
 ```
 
@@ -49,3 +49,12 @@ dependencies {
 ### 使用演示
 
 ![](https://github.com/huangdali/ELog/blob/elogmaster/elog.gif)
+
+### 历史版本
+- 2.0.2
+
+【修复】tag失效
+
+- 2.0.1
+
+正式版发布
