@@ -1,6 +1,7 @@
 package com.hdl.elog;
 
 import android.os.Environment;
+import android.text.TextUtils;
 import android.util.Log;
 
 import java.io.File;
@@ -30,7 +31,7 @@ public class ELog {
         if (!isDebug) {
             return;
         }
-        printMsg(getStackTrace(), msg.toString());
+        printMsg(getStackTrace(), "", msg.toString());
     }
 
     /**
@@ -38,11 +39,11 @@ public class ELog {
      *
      * @param msg
      */
-    public static void e(String tag, String msg) {
+    public static void e(String tag, Object msg) {
         if (!isDebug) {
             return;
         }
-        printMsg(getStackTrace(), msg);
+        printMsg(getStackTrace(), tag, msg.toString());
     }
 
     /**
@@ -81,7 +82,7 @@ public class ELog {
      * @param element 当前调用ELog.e()处的类信息（类名、方法名、行等）
      * @param msg
      */
-    private static void printMsg(StackTraceElement element, String msg) {
+    private static void printMsg(StackTraceElement element, String tag, String msg) {
         msg = msg.replace("(", "（").replace(")", "）");//替换()为中文，防止冲突
         StringBuilder sb = new StringBuilder();
 //        String className = traceElement.getClassName();//暂时不需要类名
@@ -90,8 +91,8 @@ public class ELog {
                 .append("(").append(fileName).append(":")
                 .append(element.getLineNumber())
                 .append(")");
-        String tag = sb.toString();
-        Log.e(tag, msg);
+        String lTag = (TextUtils.isEmpty(tag) ? "" : (tag + ":")) + sb.toString();
+        Log.e(lTag, msg);
     }
 
     /**
