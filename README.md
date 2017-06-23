@@ -12,6 +12,17 @@
 - 可打印日志信息到sdcard中
 
 ## 导入
+
+## 方法一（JCenter）
+Add the dependency
+
+```java
+dependencies {
+	        compile 'com.hdl:elog:v2.0.2'
+	}
+```
+
+## 方法二（JitPack方式）
 **Step 1.**  Add it in your root build.gradle at the end of repositories:
 ```java
 allprojects {
